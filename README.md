@@ -9,6 +9,6 @@ Any dep command can be used with this docker image, see the [golang dep repo](ht
 ### Example
 Install dependencies:
 ```bash
-$ docker run -it --rm -v path/to/app:/go/src/path/to/app -w /go/src/path/to/app navikt/godep ensure
+$ docker run -it --rm -v path/to/app:/go/src/path/to/app -w /go/src/path/to/app navikt/dep ensure
 ```
 
